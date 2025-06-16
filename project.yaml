@@ -4,10 +4,6 @@ basic:
         production: 'https://crosspointcapital.com/'
         staging: ''
         development: ''
-    basicAuth:
-        production: { user: '', password: '' }
-        staging: { user: '', password: '' }
-        development: null
     breakpoints:
         - 480
         - 768
@@ -40,7 +36,7 @@ advanced:
     cookies: ''
     custom_js: ''
     custom_css: ''
-    mock_content: ''
+    mock_content: {  }
     sensitivity: 15
     night_mode: false
     retina_images: false
